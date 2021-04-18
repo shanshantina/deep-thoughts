@@ -10,7 +10,6 @@ const Home = () => {
   // optional chaining negates the need to check if an object even exists before accessing its properties.
   // In this case, no data will exist until the query to the server is finished.
   const thoughts = data?.thoughts || [];
-  console.log(thoughts);
 
   return (
     <main>
